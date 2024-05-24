@@ -1,0 +1,12 @@
+name: CustomBosses
+version: '${project.version}'
+main: me.aquaponics.custombosses.CustomBosses
+api-version: '1.20'
+commands:
+  golemboss:
+    description: Gives the sender an Iron Golem Boss spawn egg
+    aliases:
+      -golem
+      -ig
+      -igboss
+
